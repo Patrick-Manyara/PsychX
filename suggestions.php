@@ -34,7 +34,7 @@
             </div>
 
             <div id="two">
-                <div class="CompInner2">
+                <div class="CompInner2 fadeInLeft">
                     <p class="BlockTitle">What is your gender identity?</p>
                     <div class="Start3" id="woman">
                         <p class="MainText2">Woman</p>
@@ -52,12 +52,12 @@
                     <input type="number" name="age" class="form-control" />
                 </div>
                 <div>
-                    <button type="button" id="confirm_age">COnfirm Age</button>
+                    <button type="button" id="confirm_age">Confirm Age</button>
                 </div>
             </div>
 
             <div id="four">
-                <div class="CompInner2">
+                <div class="CompInner2 fadeInLeft">
                     <p class="BlockTitle">How do you identify?</p>
                     <div class="Start2" id="straight">
                         <p class="MainText2">straight</p>
@@ -78,7 +78,7 @@
             </div>
 
             <div id="five">
-                <div class="CompInner2">
+                <div class="CompInner2 fadeInLeft">
                     <p class="BlockTitle">Would you like to receive consultation from a LGBTQ+ therapist?</p>
                     <div class="Start2" id="yes">
                         <p class="MainText2">Yes</p>
@@ -90,7 +90,7 @@
             </div>
 
             <div id="six">
-                <div class="CompInner2">
+                <div class="CompInner2 fadeInLeft">
                     <p class="BlockTitle">What is your relationship status?</p>
                     <div class="Start2" id="single">
                         <p class="MainText2">single</p>
@@ -114,7 +114,7 @@
             </div>
 
             <div id="seven">
-                <div class="CompInner2">
+                <div class="CompInner2 fadeInLeft">
                     <p class="BlockTitle">Would you consider yourself religious?</p>
                     <div class="Start2" id="religious">
                         <p class="MainText2">religious</p>
@@ -126,19 +126,19 @@
             </div>
 
             <div id="eight">
-                <div class="CompInner2">
+                <div class="CompInner2 fadeInLeft">
                     <p class="BlockTitle">Have you ever been in therapy before></p>
                     <div class="Start2" id="therapy_before">
-                        <p class="MainText2">therapy</p>
+                        <p class="MainText2">Yes, I have.</p>
                     </div>
                     <div class="Start2" id="first_time">
-                        <p class="MainText2">first_time</p>
+                        <p class="MainText2">No, this is my first time.</p>
                     </div>
                 </div>
             </div>
 
             <div id="nine">
-                <div class="CompInner2">
+                <div class="CompInner2 fadeInLeft">
                     <p class="BlockTitle">Would you like the system to find a therapist for you or would you like to browse for yourself?</p>
                     <div class="Start2" id="find">
                         <p class="MainText2">find</p>
@@ -150,14 +150,12 @@
             </div>
 
             <div id="ten">
-                <div class="CompInner2">
+                <div class="CompInner2 fadeInLeft">
+                    <p class="BlockTitle">Kindly confirm that the you're comfortable with the choices you've selected.</p>
                     <input hidden name="filter_values" id="filter_values" />
                     <button type="submit">Confirm</button>
                 </div>
             </div>
-
-
-
 
         </div>
     </div>
@@ -187,7 +185,39 @@
 
     .CompInner {}
 
-    .CompInner2 {}
+    .CompInner2 { -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+         
+         @-webkit-keyframes fadeInLeft {
+            0% {
+               opacity: 0;
+               -webkit-transform: translateX(20px);
+            }
+            100% {
+               opacity: 1;
+               -webkit-transform: translateX(0);
+            }
+         }
+         
+         @keyframes fadeInLeft {
+            0% {
+               opacity: 0;
+               transform: translateX(20px);
+            }
+            100% {
+               opacity: 1;
+               transform: translateX(0);
+            }
+         }
+         
+         .fadeInLeft {
+         -webkit-animation-name: fadeInLeft;
+         animation-name: fadeInLeft;
+         } 
+         /* animation-name: fadeInDown; */
 
     .Start2 {
         color: #325343;

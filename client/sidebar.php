@@ -73,7 +73,7 @@
 
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-printer"></i>
+                <i class="menu-icon tf-icons bx bx-user-plus"></i>
                 <div data-i18n="Therapists">Therapists</div>
             </a>
             <ul class="menu-sub">
@@ -92,7 +92,7 @@
 
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-test-tube"></i>
+                <i class="menu-icon tf-icons bx bx-dna"></i>
                 <div data-i18n="Sessions">Sessions</div>
             </a>
             <ul class="menu-sub">

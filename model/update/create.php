@@ -250,8 +250,11 @@ function post_corporate()
     global $arr;
     global $error;
     global $success;
-
-    $return_url = corporate_url;
+    if (isset($_GET['admin'])) {
+        $return_url = admin_url . 'view_corporates';
+    } else {
+        $return_url = corporate_url;
+    }
 
     for_loop();
 

@@ -2,7 +2,12 @@
 $page = 'vouchers';
 require_once '../path.php';
 include_once 'header.php';
-$vouchers = get_all('voucher');
+if (isset($_GET['id'])) {
+    $id = security('id', 'GET');
+    $vouchers = select_rows("SELECT * FROM voucher WHERE corporate_id = '$id' ");
+} else {
+    $vouchers = get_all('voucher');
+}
 
 $num_columns = 7;
 
@@ -24,7 +29,7 @@ for ($i = 0; $i < $num_columns; $i++) {
 ?>
 
 <div class="container-xxl flex-grow-1 container-p-y">
-    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">DataTables /</span> Basic</h4>
+    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Vouchers /</span> View Vouchers</h4>
 
     <!-- DataTable with Buttons -->
     <div class="card">

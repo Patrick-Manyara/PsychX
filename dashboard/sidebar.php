@@ -4,7 +4,7 @@
             <span class="app-brand-logo demo">
                 <img src="../assets/img/logo/logo2.png" style="width:100px;">
             </span>
-            <span class="app-brand-text demo menu-text fw-bolder ms-2"></span>
+            <span class="app-brand-text demo menu-text fw-bolder ms-2" style="color:#fff;">Admin</span>
         </a>
 
         <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
@@ -15,10 +15,6 @@
     <div class="menu-inner-shadow"></div>
 
     <ul class="menu-inner py-1">
-
-
-
-
         <!-- Dashboards -->
         <li class="menu-item <?= $page == "dashboard" ? "active" : "" ?>">
             <a href="index.php" class="menu-link">
@@ -33,7 +29,7 @@
                 <div data-i18n="Your Account">Your Account</div>
             </a>
             <ul class="menu-sub">
-               
+
                 <li class="menu-item <?= $page == "password" ? "active" : "" ?>">
                     <a href="password.php" class="menu-link">
                         <div data-i18n="Change Password">Change Password</div>
@@ -68,7 +64,7 @@
 
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-user-circle"></i>
+                <i class="menu-icon tf-icons bx bxs-coupon"></i>
                 <div data-i18n="Vouchers">Vouchers</div>
             </a>
             <ul class="menu-sub">
@@ -82,6 +78,16 @@
                         <div data-i18n="View Vouchers">View Vouchers</div>
                     </a>
                 </li>
+                <li class="menu-item <?= $page == "corporate" ? "active" : "" ?>">
+                    <a href="corporate.php" class="menu-link">
+                        <div data-i18n="Create A corporate">Create A corporate</div>
+                    </a>
+                </li>
+                <li class="menu-item <?= $page == "corporates" ? "active" : "" ?>">
+                    <a href="view_corporates.php" class="menu-link">
+                        <div data-i18n="View corporates">View corporates</div>
+                    </a>
+                </li>
             </ul>
         </li>
 
@@ -89,7 +95,7 @@
 
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-food-menu"></i>
+                <i class="menu-icon tf-icons bx bx-world"></i>
                 <div data-i18n="Site">Site</div>
             </a>
             <ul class="menu-sub">
@@ -128,7 +134,7 @@
 
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-printer"></i>
+                <i class="menu-icon tf-icons bx bx-user-plus"></i>
                 <div data-i18n="Therapists">Therapists</div>
             </a>
             <ul class="menu-sub">
@@ -156,9 +162,9 @@
             </ul>
         </li>
 
-         <li class="menu-item">
+        <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-printer"></i>
+                <i class="menu-icon tf-icons bx bx-category"></i>
                 <div data-i18n="Categories">Categories</div>
             </a>
             <ul class="menu-sub">
@@ -172,14 +178,14 @@
                         <div data-i18n="View All categories">View All categories</div>
                     </a>
                 </li>
-                
+
 
             </ul>
         </li>
-            
+
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-printer"></i>
+                <i class="menu-icon tf-icons bx bx-group"></i>
                 <div data-i18n="Clients">Clients</div>
             </a>
             <ul class="menu-sub">
@@ -205,7 +211,7 @@
 
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-printer"></i>
+                <i class="menu-icon tf-icons bx bx-transfer"></i>
                 <div data-i18n="Transers">Transers</div>
             </a>
             <ul class="menu-sub">
@@ -221,7 +227,7 @@
 
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-printer"></i>
+                <i class="menu-icon tf-icons bx bxl-microsoft-teams"></i>
                 <div data-i18n="Groups">Groups</div>
             </a>
             <ul class="menu-sub">
@@ -247,7 +253,7 @@
 
         <li class="menu-item">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-test-tube"></i>
+                <i class="menu-icon tf-icons bx bx-dna"></i>
                 <div data-i18n="Sessions">Sessions</div>
             </a>
             <ul class="menu-sub">
@@ -260,7 +266,7 @@
             </ul>
         </li>
 
-    
+
 
 
     </ul>

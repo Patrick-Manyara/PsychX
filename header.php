@@ -127,14 +127,14 @@ unset_session_warning();
         <!-- Start Navigation -->
         <nav class="navbar navbar-default attr-border navbar-sticky bootsnav">
 
-        
+
 
             <div class="container">
 
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>
-                        
+
                         <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>
                     </ul>
                 </div>
@@ -145,7 +145,7 @@ unset_session_warning();
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index">
                         <img src="assets/img/logo/logo.png" style="width:120px;" class="logo" alt="Logo">
                     </a>
                 </div>

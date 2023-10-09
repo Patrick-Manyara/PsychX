@@ -8,15 +8,9 @@ $id = security('id', 'GET');
 $data = select_rows("SELECT * FROM voucher WHERE voucher_batch = '$id' ")[0];
 
 $num = $data['voucher_num'];
-if ($data['voucher_for'] == 'all') {
-    $cash = $num * 3000;
-} elseif ($data['voucher_for'] == 'individual') {
-    $cash = $num * 3000;
-} elseif ($data['voucher_for'] == 'student') {
-    $cash = $num * 1500;
-} elseif ($data['voucher_for'] == 'couple') {
-    $cash = $num * 4000;
-}
+
+$cash = $num * 2500;
+
 ?>
 
 <head>
@@ -24,7 +18,7 @@ if ($data['voucher_for'] == 'all') {
 </head>
 
 <div class="container-xxl flex-grow-1 container-p-y">
-    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light"><?= ucwords($header_name) ?> /</span> Create A Voucher</h4>
+    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Complete Payment /</span> Create A Voucher Batch</h4>
 
     <div class="row">
         <p>
@@ -32,9 +26,13 @@ if ($data['voucher_for'] == 'all') {
         </p>
         <div class="col-md-12">
 
-            <button class="btn btn-theme effect btn-md" type="button" id="pay_btn">
+            <button class="btn btn-label-primary" type="button" id="pay_btn">
                 Pay Now <i class="fa fa-mobile-retro"></i>
             </button>
+            <p>OR</p>
+            <a href="view_vouchers" class="btn btn-label-warning">
+                Pay Later
+            </a>
         </div>
     </div>
 </div>
@@ -46,7 +44,7 @@ if ($data['voucher_for'] == 'all') {
                 OrderId: '<?= generateRandomString() ?>',
                 CustomerEmail: '<?= $profile['corporate_email'] ?>',
                 Currency: 'KES',
-                CustomerPhone: '' +  '<?=  $profile['corporate_phone'] ?>',
+                CustomerPhone: '' + '<?= $profile['corporate_phone'] ?>',
                 OrderAmount: 1,
                 BusinessEmail: 'hello@psychx.io',
                 CancelledUrl: 'payment_fail.php',

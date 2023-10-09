@@ -4,7 +4,7 @@ require_once '../path.php';
 include_once 'header.php';
 $vouchers = select_rows("SELECT * FROM voucher WHERE corporate_id = '$_SESSION[corporate_id]' ");
 
-$num_columns = 6;
+$num_columns = 7;
 
 $column_indexes = range(0, $num_columns - 1);
 
@@ -16,6 +16,7 @@ for ($i = 0; $i < $num_columns; $i++) {
         array('data' => 'col_' . $i, 'title' => 'id'),
         array('data' => 'voucher_code', 'title' => 'Code'),
         array('data' => 'voucher_used', 'title' => 'Used'),
+        array('data' => 'voucher_paid', 'title' => 'Paid'),
         array('data' => 'voucher_date_created', 'title' => 'Date Created'),
         array('data' => '', 'title' => 'Action')
     );
@@ -35,6 +36,7 @@ for ($i = 0; $i < $num_columns; $i++) {
                         <th>id</th>
                         <th>Code</th>
                         <th>Used</th>
+                        <th>Paid</th>
                         <th>Date Created</th>
                         <th>Action</th>
                     </tr>
@@ -51,6 +53,18 @@ for ($i = 0; $i < $num_columns; $i++) {
                             <td> <?= $voucher['voucher_code'] ?> </td>
                             <td> <?= $voucher['voucher_used'] ?> </td>
                             <td> <?= $voucher['voucher_date_created'] ?> </td>
+                            <td>
+                                <?php
+                                if ($voucher['voucher_paid'] == 'not_paid') { ?>
+                                    <a href="pay?id=<?= encrypt($voucher['voucher_batch']) ?>" class="btn btn-info">
+                                        Pay Now
+                                    </a>
+                                <?php
+                                } else {
+                                    echo 'Paid';
+                                }
+                                ?>
+                            </td>
                             <td>
                                 <a href="voucher?id=<?= $voucher_id ?>" class="btn btn-success">
                                     <i class='bx bx-edit'></i>

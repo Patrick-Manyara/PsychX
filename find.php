@@ -168,18 +168,18 @@ $row = array();
                                 </ul>
                                 <div class="DeeFlex">
                                     <a href="rebook?tid=<?= encrypt($therapist['therapist_id']) ?>" class="btn btn-theme effect btn-md" style="margin-top: 1em;">
-                                        View My Schedule
+                                        Book A Session With Me
                                     </a>
                                 </div>
                             </div>
-                            <p class="SeeText">
+                            <!-- <p class="SeeText">
                                 <b>
                                     See the schedules for the therapists you've bookmarked:
                                 </b>
-                            </p>
-                            <div class="DeeFlex">
+                            </p> -->
+                            <!-- <div class="DeeFlex">
                                 <a data-animation="animated slideInUp" class="btn btn-theme border btn-md" style="margin-top: 10px;" href="schedule">View Bookmarked Schedules</a>
-                            </div>
+                            </div> -->
                             <!-- <p class="SeeText">
                                 <b>
                                     See the schedules for all PsychX therapists:

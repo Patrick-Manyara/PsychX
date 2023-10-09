@@ -4,6 +4,28 @@ require_once '../path.php';
 require_once MODEL_PATH . "operations.php";
 
 if (isset($_SESSION) && $_SESSION['admin_login'] == true) redirect_header(admin_url . 'index');
+
+if (!empty($_SESSION['error'])) {
+    foreach ($_SESSION['error'] as $err) {
+        error_message(ERROR_DEFINITION[$err]) . PHP_EOL;
+    }
+}
+
+if (!empty($_SESSION['success'])) {
+    foreach ($_SESSION['success'] as $success) {
+        success_message(SUCCESS_DEFINITION[$success]) . PHP_EOL;
+    }
+}
+
+if (!empty($_SESSION['warning'])) {
+    foreach ($_SESSION['warning'] as $warning) {
+        warning_message(WARNING_DEFINITION[$warning]) . PHP_EOL;
+    }
+}
+
+unset_session_error();
+unset_session_success();
+unset_session_warning();
 ?>
 
 <!DOCTYPE html>
