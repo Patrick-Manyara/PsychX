@@ -58,7 +58,8 @@ const ERROR_DEFINITION = array(
     159 => 'Comment couldn\'t be posted. Kindly try again.',
     160 => 'Error encountered. Please try again',
     161 => 'You are already subscribed',
-    162 => 'Something went wrong. Please try again'
+    162 => 'Something went wrong. Please try again',
+    163 => 'Members not uploaded successfully'
 );
 
 function error_checker($location)

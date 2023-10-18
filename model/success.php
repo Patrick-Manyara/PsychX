@@ -35,7 +35,8 @@ const SUCCESS_DEFINITION = array(
     231 => 'Details received. Choose a doctor to proceed',
     232 => 'Prescription received successfully',
     233 => 'Comment edited successfully',
-    234 => 'Records saved. Proceed to payment'
+    234 => 'Records saved. Proceed to payment',
+    235 => 'Members uploaded successfully'
 );
 
 function render_success($location)

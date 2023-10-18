@@ -87,6 +87,24 @@
                         <div data-i18n="view vouchers">view vouchers</div>
                     </a>
                 </li>
+                </ul>
+                <li class="menu-item">
+                <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bxs-user"></i>
+                <div data-i18n="members">members</div>
+            </a>
+           
+            <ul class="menu-sub">
+                <li class="menu-item <?= $page == "upload members" ? "active" : "" ?>">
+                    <a href="upload_members" class="menu-link">
+                        <div data-i18n="upload members">Upload Members</div>
+                    </a>
+                </li>
+                <li class="menu-item <?= $page == "members" ? "active" : "" ?>">
+                    <a href="view_members" class="menu-link">
+                        <div data-i18n="view members">View Members</div>
+                    </a>
+                </li>
             </ul>
         </li>
     </ul>

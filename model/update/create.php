@@ -1,7 +1,9 @@
 <?php
+use PhpOffice\PhpSpreadsheet\Reader\Csv;
 require_once '../../path.php';
 require_once MODEL_PATH . "operations.php";
 include_once('../vendor/autoload.php');
+include_once('../../vendor/autoload.php');
 include_once '../../meeting/create_meeting.php';
 
 $action = (isset($_GET['action']) && $_GET['action'] != '') ? security('action', 'GET') : '';
@@ -86,6 +88,9 @@ switch ($action) {
     case 'corporate_edit':
         post_corporate_edit();
         break;
+    case 'upload_members':
+        post_upload_members();
+        break;
     case 'transfer':
         post_transfer();
         break;
@@ -102,6 +107,8 @@ switch ($action) {
         post_simple($_GET['table'], $_GET['url']);
         break;
 }
+
+
 
 function post_simple($table, $url)
 {
@@ -151,6 +158,37 @@ function post_simple($table, $url)
 
     $success[$table] = 220;
     render_success($return_url . '?id=' .  encrypt($id));
+}
+function post_upload_members()
+{
+    global $arr;
+    global $error;
+    global $success;
+    $return_url = corporate_url . "upload_members";
+    $success_url = corporate_url . "view_members";
+
+    $reader = new \PhpOffice\PhpSpreadsheet\Reader\Csv();
+    $spreadsheet = $reader->load($_FILES['members_csv']['tmp_name']);
+    $worksheet = $spreadsheet->getActiveSheet();
+    $rows = $worksheet->toArray();
+
+
+    foreach ($rows as $row) {
+        $arr['employee_name'] = $row[0];
+        $arr['employee_number'] = $row[1];
+        $arr['employee_phone'] = $row[2];
+
+        $arr['employee_id'] = create_id('employee', 'employee_id');
+
+        if (!build_sql_insert('employee', $arr)) {
+            $error['employee'] = 163;
+            error_checker($return_url);
+        }
+        
+    }
+
+    $success['employee'] = 235;
+    render_success($success_url);
 }
 
 function post_banner()
@@ -1224,7 +1262,8 @@ function create_id($table, $id)
         'session'           => 'SES' . $date_today,
         'voucher'           => 'VOC' . $date_today,
         'subscriber'        => 'SUB' . $date_today,
-        'corporate'         => 'CPR' . $date_today
+        'corporate'         => 'CPR' . $date_today,
+        'employee'          => 'EMP' . $date_today
     );
 
     $random_str = $table_prifix[$table] . rand_str();
