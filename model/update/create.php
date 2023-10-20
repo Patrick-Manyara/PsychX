@@ -167,7 +167,7 @@ function post_upload_members()
     $return_url = corporate_url . "upload_members";
     $success_url = corporate_url . "view_members";
 
-    $reader = new \PhpOffice\PhpSpreadsheet\Reader\Csv();
+    $reader = new Csv();
     $spreadsheet = $reader->load($_FILES['members_csv']['tmp_name']);
     $worksheet = $spreadsheet->getActiveSheet();
     $rows = $worksheet->toArray();
@@ -177,6 +177,16 @@ function post_upload_members()
         $arr['employee_name'] = $row[0];
         $arr['employee_number'] = $row[1];
         $arr['employee_phone'] = $row[2];
+
+        // // Validate employee_number and employee_phone
+        // if (!preg_match("/^[0-9]*$/", $arr['employee_number'])) {
+        //     echo "Error: Employee number must contain only numbers.";
+        //     return;
+        // }
+        // if (!preg_match("/^(\+?[0-9]*)$/", $arr['employee_phone'])) {
+        //     echo "Error: Employee phone must contain only numbers or start with a '+'.";
+        //     return;
+        // }
 
         $arr['employee_id'] = create_id('employee', 'employee_id');
 

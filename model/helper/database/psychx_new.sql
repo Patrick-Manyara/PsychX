@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 02, 2023 at 10:36 AM
+-- Generation Time: Oct 20, 2023 at 08:51 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -267,6 +267,28 @@ CREATE TABLE `corporate` (
 
 INSERT INTO `corporate` (`corporate_id`, `corporate_name`, `corporate_email`, `corporate_password`, `corporate_phone`, `corporate_status`, `corporate_date_created`) VALUES
 ('CPR20230930t7UxEh8', 'Muang Thai', 'patjunhopat@gmail.com', '$2y$11$7DD.IczLJhLXnsY4oznWu.PzvsL519gvH.7B5Apy8H6W8B1hKw4n.', '1234567', 'active', '2023-09-13 17:13:39');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `employee`
+--
+
+CREATE TABLE `employee` (
+  `employee_id` varchar(255) NOT NULL,
+  `employee_name` varchar(255) NOT NULL,
+  `employee_number` varchar(255) NOT NULL,
+  `employee_phone` varchar(255) NOT NULL,
+  `employee_date_created` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `employee`
+--
+
+INSERT INTO `employee` (`employee_id`, `employee_name`, `employee_number`, `employee_phone`, `employee_date_created`) VALUES
+('EMP20231019g6MEq2o', 'John Doe', '2', '0782939042', '2023-10-19 00:38:19'),
+('EMP20231019LZPg1Hn', 'Mary Jane', '1', '+254789563478', '2023-10-19 00:45:15');
 
 -- --------------------------------------------------------
 
@@ -1464,6 +1486,12 @@ ALTER TABLE `company`
 --
 ALTER TABLE `corporate`
   ADD PRIMARY KEY (`corporate_id`);
+
+--
+-- Indexes for table `employee`
+--
+ALTER TABLE `employee`
+  ADD PRIMARY KEY (`employee_id`);
 
 --
 -- Indexes for table `filter`
