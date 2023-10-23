@@ -58,69 +58,58 @@
 
             <div id="four">
                 <div class="CompInner2 fadeInLeft">
-                    <p class="BlockTitle">How do you identify?</p>
-                    <div class="Start2" id="straight">
-                        <p class="MainText2">straight</p>
+                    <p class="BlockTitle">Have there been any significant life events or experiences you've had that you believe have had an impact on your mental and emotional well-being??</p>
+                    <div class="Start2" id="yes">
+                        <p class="MainText2">yes</p>
                     </div>
-                    <div class="Start2" id="gay">
-                        <p class="MainText2">gay</p>
-                    </div>
-                    <div class="Start2" id="lesbian">
-                        <p class="MainText2">lesbian</p>
-                    </div>
-                    <div class="Start2" id="bi">
-                        <p class="MainText2">bi</p>
+                    <div class="Start2" id="no">
+                        <p class="MainText2">no</p>
                     </div>
                     <div class="Start2" id="not">
-                        <p class="MainText2">Rather not say</p>
+                        <p class="MainText2">would rather not say...</p>
                     </div>
+                  
                 </div>
             </div>
 
             <div id="five">
                 <div class="CompInner2 fadeInLeft">
-                    <p class="BlockTitle">Would you like to receive consultation from a LGBTQ+ therapist?</p>
-                    <div class="Start2" id="yes">
-                        <p class="MainText2">Yes</p>
+                    <p class="BlockTitle">Would you like to receive consultation from a male or female therapist?</p>
+                    <div class="Start2" id="male">
+                        <p class="MainText2">male</p>
+                    </div>
+                    <div class="Start2" id="female">
+                        <p class="MainText2">female</p>
                     </div>
                     <div class="Start2" id="no">
-                        <p class="MainText2">Not Specifically</p>
+                        <p class="MainText2">Not Specific. Any will do.</p>
                     </div>
                 </div>
             </div>
 
             <div id="six">
                 <div class="CompInner2 fadeInLeft">
-                    <p class="BlockTitle">What is your relationship status?</p>
-                    <div class="Start2" id="single">
-                        <p class="MainText2">single</p>
+                    <p class="BlockTitle">Has any member of your family received therapy before?</p>
+                    <div class="Start2" id="yes">
+                        <p class="MainText2">yes</p>
                     </div>
-                    <div class="Start2" id="relationship">
-                        <p class="MainText2">relationship</p>
+                    <div class="Start2" id="no">
+                        <p class="MainText2">no</p>
                     </div>
-                    <div class="Start2" id="married">
-                        <p class="MainText2">married</p>
-                    </div>
-                    <div class="Start2" id="divorced">
-                        <p class="MainText2">divorced</p>
-                    </div>
-                    <div class="Start2" id="widowed">
-                        <p class="MainText2">widowed</p>
-                    </div>
-                    <div class="Start2" id="other">
-                        <p class="MainText2">other</p>
+                    <div class="Start2" id="not">
+                        <p class="MainText2">would rather not say...</p>
                     </div>
                 </div>
             </div>
 
             <div id="seven">
                 <div class="CompInner2 fadeInLeft">
-                    <p class="BlockTitle">Would you consider yourself religious?</p>
-                    <div class="Start2" id="religious">
-                        <p class="MainText2">religious</p>
+                    <p class="BlockTitle">Would you like live sessions or online sessions?</p>
+                    <div class="Start2" id="live">
+                        <p class="MainText2">live</p>
                     </div>
-                    <div class="Start2" id="irreligious">
-                        <p class="MainText2">irreligious</p>
+                    <div class="Start2" id="online">
+                        <p class="MainText2">online</p>
                     </div>
                 </div>
             </div>
@@ -185,39 +174,43 @@
 
     .CompInner {}
 
-    .CompInner2 { -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-         }
-         
-         @-webkit-keyframes fadeInLeft {
-            0% {
-               opacity: 0;
-               -webkit-transform: translateX(20px);
-            }
-            100% {
-               opacity: 1;
-               -webkit-transform: translateX(0);
-            }
-         }
-         
-         @keyframes fadeInLeft {
-            0% {
-               opacity: 0;
-               transform: translateX(20px);
-            }
-            100% {
-               opacity: 1;
-               transform: translateX(0);
-            }
-         }
-         
-         .fadeInLeft {
-         -webkit-animation-name: fadeInLeft;
-         animation-name: fadeInLeft;
-         } 
-         /* animation-name: fadeInDown; */
+    .CompInner2 {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
+    @-webkit-keyframes fadeInLeft {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateX(20px);
+        }
+
+        100% {
+            opacity: 1;
+            -webkit-transform: translateX(0);
+        }
+    }
+
+    @keyframes fadeInLeft {
+        0% {
+            opacity: 0;
+            transform: translateX(20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .fadeInLeft {
+        -webkit-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+    }
+
+    /* animation-name: fadeInDown; */
 
     .Start2 {
         color: #325343;
