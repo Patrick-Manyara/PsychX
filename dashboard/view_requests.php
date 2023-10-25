@@ -1,5 +1,5 @@
 <?php
-$page = 'view_requests';
+$page = 'view requests';
 require_once '../path.php';
 include_once 'header.php';
 
