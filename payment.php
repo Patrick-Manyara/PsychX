@@ -132,9 +132,18 @@ if (isset($_SESSION['login'])) {
                                                 Do You Have A Voucher Code?
                                             </label>
                                             <input type="text" style="margin-top:10px;" class="form-control" id="voucher" name="voucher" placeholder="If Yes, Type It In Here.">
+                                            
+                                        </div>
+                                        <div class="form-group">
+                                            <label>
+                                                Are you using a corporate voucher?
+                                            </label>
+                                            <input type="text" style="margin-top:10px;" class="form-control" id="employee_number" name="employee_number" placeholder="If Yes, Type Your Employee Number In Here.">
                                             <button type="button" onClick="checkAvailabilityVoucher()" style="margin-top: 1em; margin-bottom:1em;" class="btn btn-warning effect btn-md">Check Voucher</button>
                                             <span id="voucher-availability" style="font-size:12px;"></span>
                                         </div>
+                                        
+
 
                                         <p>
                                             If You Dont Have A Voucher Code, Enter Your Details:
@@ -176,6 +185,10 @@ if (isset($_SESSION['login'])) {
                                                 <option value="virtual">Virtual</option>
                                             </select>
                                         </div>
+                                        <input type="hidden" id="voucher_used" name="voucher_used">
+                                        <input type="hidden" id="voucher_code" name="voucher_code">
+                                        <input type="hidden" id="employee_num" name="employee_number">
+
                                         <div class="col-md-12">
                                             <button class="btn btn-theme effect btn-md" type="submit" id="sub2">
                                                 Proceed <i class="fa fa-paper-plane"></i>
@@ -202,17 +215,27 @@ if (isset($_SESSION['login'])) {
 
 
 <script>
+   
+
     function checkAvailabilityVoucher() {
+    //     console.log($("#employee_number").val());
+    // console.log($("#voucher").val());
         jQuery.ajax({
             url: "check_voucher.php",
-            data: 'voucher=' + $("#voucher").val(),
-            type: "POST",
+            data: {
+            'voucher': $("#voucher").val(),
+            'employee_number': $("#employee_number").val()
+        },            
+        type: "POST",
             success: function(data) {
                 // $("#voucher-availability").html(data);
                 console.log(data);
                 if (data == 'yes') {
                     $("#voucher-availability").html('Your voucher is valid. Please click on pay with voucher');
                     $('#voucher_name').val($("#voucher").val());
+                    $('#employee_num').val($("#employee_number").val());
+                    $('#voucher_used').val('yes'); 
+                    $('#voucher_code').val($("#voucher").val());
                     $('#target').css('display', 'none');
                     $('#target2').css('display', 'block');
                 }

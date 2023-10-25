@@ -89,15 +89,12 @@
 
             <div id="six">
                 <div class="CompInner2 fadeInLeft">
-                    <p class="BlockTitle">Has any member of your family received therapy before?</p>
+                    <p class="BlockTitle">Would you like to book a consultation with out inhouse therapist?</p>
                     <div class="Start2" id="yes">
                         <p class="MainText2">yes</p>
                     </div>
                     <div class="Start2" id="no">
                         <p class="MainText2">no</p>
-                    </div>
-                    <div class="Start2" id="not">
-                        <p class="MainText2">would rather not say...</p>
                     </div>
                 </div>
             </div>
@@ -355,8 +352,9 @@
 </style>
 
 <script>
+            let choiceArray = [];
+
     $(document).ready(function() {
-        var choiceArray = [];
         $('#individual').click(function() {
             $('#two').css('display', 'block');
             $('#one').css('display', 'none');
@@ -451,4 +449,24 @@
 
 
     });
+    $('#ten button[type="submit"]').click(function(e) {
+    e.preventDefault(); // Prevent the form from being submitted normally
+    var lastItem = choiceArray[choiceArray.length - 1];
+
+    if (lastItem === 'find') {
+        $.ajax({
+            url: 'find_therapist.php', 
+            type: 'POST',
+            data: {choiceArray: choiceArray},
+            success: function(response) {
+                //console.log(response);
+                window.location.href = 'rebook.php?tid=' + response;
+            }
+        });
+    }
+    else if (lastItem === 'search') {
+            window.location.href = 'find.php';
+        }
+});
+
 </script>

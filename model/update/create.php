@@ -744,6 +744,7 @@ function post_pay()
     global $error;
     global $success;
     $return_url = base_uri . "success";
+   
 
     $sql = "SELECT * FROM subscription WHERE device_id = '$_COOKIE[device]' ORDER BY subscription_date_created DESC ";
     $row = select_rows($sql)[0];
@@ -754,7 +755,18 @@ function post_pay()
     $arr['subscription_email'] = $_SESSION['user_email'];
     $arr['subscription_phone']     =  get_by_id('user', $_SESSION['user_id'])['user_phone'];
 
+    $arr3 = array();
+    $arr3['voucher_used']     =  security('voucher_used');
+    $code     =  security('voucher_code');
+    $arr3['employee_number']     =  security('employee_number');
 
+
+    
+    if (!build_sql_edit('voucher', $arr3, $code, 'voucher_code')) {
+        $error['voucher'] = 132;
+        error_checker($return_url);
+    }
+    
     $sql2 = "SELECT * FROM session WHERE device_id = '$_COOKIE[device]' ORDER BY session_date_created DESC ";
     $row2 = select_rows($sql2)[0];
     $ses_id = $row2['session_id'];
@@ -764,18 +776,23 @@ function post_pay()
     $et = $row2['session_end_time'];
 
     $therapist_id = $row2['therapist_id'];
-    $therapist_email = get_by_id('therapist', $therapist_id)['therapist_email'];
+    $arr4 = array();
+    $arr4['voucher_code']     =  security('voucher_code');
 
+
+    if (!build_sql_edit('session', $arr4, $ses_id, 'session_id')) {
+        $error['voucher'] = 132;
+        error_checker($return_url);
+    }
+    $therapist_email = get_by_id('therapist', $therapist_id)['therapist_email'];
+    $therapist_name = get_by_id('therapist', $therapist_id)['therapist_name'];
 
     $session_mode = $_POST['session_mode2'];
 
     // cout($ses_id);
 
-
     $arr2 = array();
     $arr2['client_id']     =  $_SESSION['user_id'];
-
-
     $arr2['session_payment_status'] = 'paid';
     $arr2['session_mode'] = $session_mode;
 
@@ -788,8 +805,54 @@ function post_pay()
     $content       .= 'Hello, you have a session with <b>' . $arr['subscription_name'] . '</b> <br>';
     $content       .= 'The session has been successfully booked for:  <br>';
     $content        .= '<br> <b> START TIME: </b> ' . $st;
-    $content        .= '<br> <b> START TIME: </b> ' . $et;
+    $content        .= '<br> <b> END TIME: </b> ' . $et;
     $content        .= '<br> <b> SESSION DATE: </b> ' . $date;
+    $voucher_used = ($arr3['voucher_used'] == 'yes') ? 'yes' : 'no';
+    $content .= '<br> A voucher code was used to book this session: <b>' . $voucher_used . '</b> ';
+
+
+    $ad   = '<p style="font-family:Poppins, sans-serif;"> ';
+    $ad       .= 'Hello admin, a new session with has been booked<br>';
+    $ad .= 'Below are the details:<br>';
+    $ad .= 'Client name: <b>' . $arr['subscription_name'] . '</b> <br>';
+    $ad .= 'Therapist name: <b>' . $therapist_name . '</b> <br>';
+    $ad        .= '<br> <b> START TIME: </b> ' . $st;
+    $ad        .= '<br> <b> END TIME: </b> ' . $et;
+    $ad        .= '<br> <b> SESSION DATE: </b> ' . $date;
+    $voucher_used = ($arr3['voucher_used'] == 'yes') ? 'yes' : 'no';
+    $ad .= '<br> A voucher code was used to book this session: <b>' . $voucher_used . '</b> ';
+    
+    if ($voucher_used == 'yes') {
+        $ad .= '<br> This is the voucher code used: <b>' .  $arr4['voucher_code'] . '</b>';
+    }
+    $emails = select_rows('SELECT admin_email FROM admin');
+    $adminEmails = [];
+
+    foreach ($emails as $emailObject) {
+        if (isset($emailObject['admin_email']) && !empty($emailObject['admin_email'])) {
+            $adminEmails[] = $emailObject['admin_email'];
+        }
+    }
+    foreach ($adminEmails as $adminEmail) {
+    email($adminEmail, APP_NAME . " Booking", APP_NAME, $ad);
+}
+
+    if(!empty($arr3['employee_number'])){
+    $co  = '<p style="font-family:Poppins, sans-serif;"> ';
+    $co  .= 'Hello, <br>';
+    $co  .= 'A new corporate voucher has been used:<br>';
+    $co  .= '<br> <b> VOUCHER CODE: </b> ' . $arr4['voucher_code'] . '<br>';
+    $co  .= 'Log in to your dashboard to view more information.<br>';
+    
+    $sql =  "SELECT corporate_id FROM voucher WHERE voucher_code = '$arr4[voucher_code]'";
+    $cid = select_rows($sql)[0]['corporate_id'];
+    $sql1 =  "SELECT corporate_email FROM corporate WHERE corporate_id = '$cid'";
+    $cemail = select_rows($sql1)[0]['corporate_email'];
+   
+    email($cemail, APP_NAME . " Corporate Voucher Use", APP_NAME, $co);
+    }
+
+    
 
     if ($session_mode == "virtual") {
         $time = $date . "T" . $time;

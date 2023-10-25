@@ -87,6 +87,11 @@
                         <div data-i18n="view vouchers">view vouchers</div>
                     </a>
                 </li>
+                <li class="menu-item <?= $page == "used vouchers" ? "active" : "" ?>">
+                    <a href="view_used_vouchers" class="menu-link">
+                        <div data-i18n="view used vouchers">view used vouchers</div>
+                    </a>
+                </li>
                 </ul>
                 <li class="menu-item">
                 <a href="javascript:void(0);" class="menu-link menu-toggle">

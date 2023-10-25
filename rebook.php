@@ -54,6 +54,7 @@ if (isset($_SESSION['login'])) {
 }
 
 $therapists = get_rebook_therapist(security('tid','GET'));
+//cout($therapists);
 
 foreach ($therapists as $item) {
 }
