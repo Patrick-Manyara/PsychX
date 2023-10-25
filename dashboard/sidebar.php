@@ -88,6 +88,16 @@
                         <div data-i18n="View corporates">View corporates</div>
                     </a>
                 </li>
+                <li class="menu-item <?= $page == "view requests" ? "active" : "" ?>">
+                    <a href="view_requests.php" class="menu-link">
+                        <div data-i18n="View corporate requests">View corporate requests</div>
+                    </a>
+                </li>
+                <li class="menu-item <?= $page == "view used vouchers" ? "active" : "" ?>">
+                    <a href="view_used_vouchers.php" class="menu-link">
+                        <div data-i18n="View used vouchers">View used vouchers</div>
+                    </a>
+                </li>
             </ul>
         </li>
 
