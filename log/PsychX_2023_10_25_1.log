@@ -3400,3 +3400,259 @@
 2023-10-25 21:28:38 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
 2023-10-25 21:28:38 : Starting Encryption... [ VOC20230930gteD3fb ]
 2023-10-25 21:28:38 : Encryption complete: [ LytORHh3V3Z4V1RUR0dzTUxmWUlhSlI5b3Nna1Q2YXE4Qzl5M1NrWGJuND0 ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698258518,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:01:12 : Last activity time: [ 1698260472 ]
+2023-10-25 22:01:12 : Trying Database connection...
+2023-10-25 22:01:12 : Database connection successfull
+2023-10-25 22:01:12 : Trying Database connection...
+2023-10-25 22:01:12 : Database connection successfull
+2023-10-25 22:01:12 : Starting Encryption... [ ::1 ]
+2023-10-25 22:01:12 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:01:12 : Starting Encryption... [ VOC20230930gteD3fb ]
+2023-10-25 22:01:12 : Encryption complete: [ LytORHh3V3Z4V1RUR0dzTUxmWUlhSlI5b3Nna1Q2YXE4Qzl5M1NrWGJuND0 ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260472,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:01:42 : Last activity time: [ 1698260502 ]
+2023-10-25 22:01:42 : Trying Database connection...
+2023-10-25 22:01:42 : Database connection successfull
+2023-10-25 22:01:42 : Starting Encryption... [ ::1 ]
+2023-10-25 22:01:42 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:01:42 : Starting Decryption... [ $_SESSION['corporate_id'] ]
+2023-10-25 22:01:42 : Decryption complete: [  ]
+2023-10-25 22:01:42 : Trying Database connection...
+2023-10-25 22:01:42 : Database connection successfull
+2023-10-25 22:01:42 : DB connection closed
+2023-10-25 22:01:42 : Trying Database connection...
+2023-10-25 22:01:42 : Database connection successfull
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260502,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:01:49 : Last activity time: [ 1698260509 ]
+2023-10-25 22:01:49 : Trying Database connection...
+2023-10-25 22:01:49 : Database connection successfull
+2023-10-25 22:01:49 : Trying Database connection...
+2023-10-25 22:01:49 : Database connection successfull
+2023-10-25 22:01:49 : Starting Encryption... [ ::1 ]
+2023-10-25 22:01:49 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:01:49 : Starting Encryption... [ VOC20230930gteD3fb ]
+2023-10-25 22:01:49 : Encryption complete: [ LytORHh3V3Z4V1RUR0dzTUxmWUlhSlI5b3Nna1Q2YXE4Qzl5M1NrWGJuND0 ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260509,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:02:34 : Last activity time: [ 1698260554 ]
+2023-10-25 22:02:34 : Trying Database connection...
+2023-10-25 22:02:34 : Database connection successfull
+2023-10-25 22:02:34 : Starting Encryption... [ ::1 ]
+2023-10-25 22:02:34 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:02:34 : Starting Decryption... [ $_SESSION['corporate_id'] ]
+2023-10-25 22:02:34 : Decryption complete: [  ]
+2023-10-25 22:02:34 : Trying Database connection...
+2023-10-25 22:02:34 : Database connection successfull
+2023-10-25 22:02:34 : DB connection closed
+2023-10-25 22:02:34 : Trying Database connection...
+2023-10-25 22:02:34 : Database connection successfull
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260554,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:02:42 : Last activity time: [ 1698260562 ]
+2023-10-25 22:02:42 : Trying Database connection...
+2023-10-25 22:02:42 : Database connection successfull
+2023-10-25 22:02:42 : Trying Database connection...
+2023-10-25 22:02:42 : Database connection successfull
+2023-10-25 22:02:42 : Starting Encryption... [ ::1 ]
+2023-10-25 22:02:42 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:02:42 : Starting Encryption... [ VOC20230930gteD3fb ]
+2023-10-25 22:02:42 : Encryption complete: [ LytORHh3V3Z4V1RUR0dzTUxmWUlhSlI5b3Nna1Q2YXE4Qzl5M1NrWGJuND0 ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260562,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:03:30 : Last activity time: [ 1698260610 ]
+2023-10-25 22:03:30 : Trying Database connection...
+2023-10-25 22:03:30 : Database connection successfull
+2023-10-25 22:03:30 : Starting Encryption... [ ::1 ]
+2023-10-25 22:03:30 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:03:30 : Starting Decryption... [ $_SESSION['corporate_id'] ]
+2023-10-25 22:03:30 : Decryption complete: [  ]
+2023-10-25 22:03:30 : Trying Database connection...
+2023-10-25 22:03:30 : Database connection successfull
+2023-10-25 22:03:30 : DB connection closed
+2023-10-25 22:03:30 : Trying Database connection...
+2023-10-25 22:03:30 : Database connection successfull
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260610,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:04:12 : Last activity time: [ 1698260652 ]
+2023-10-25 22:04:12 : Trying Database connection...
+2023-10-25 22:04:12 : Database connection successfull
+2023-10-25 22:04:12 : Trying Database connection...
+2023-10-25 22:04:12 : Database connection successfull
+2023-10-25 22:04:12 : Starting Encryption... [ ::1 ]
+2023-10-25 22:04:12 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:04:12 : Starting Encryption... [ VOC20230930gteD3fb ]
+2023-10-25 22:04:12 : Encryption complete: [ LytORHh3V3Z4V1RUR0dzTUxmWUlhSlI5b3Nna1Q2YXE4Qzl5M1NrWGJuND0 ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260652,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:04:22 : Last activity time: [ 1698260662 ]
+2023-10-25 22:04:22 : Trying Database connection...
+2023-10-25 22:04:22 : Database connection successfull
+2023-10-25 22:04:22 : Trying Database connection...
+2023-10-25 22:04:22 : Database connection successfull
+2023-10-25 22:04:22 : Starting Encryption... [ ::1 ]
+2023-10-25 22:04:22 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:04:22 : Starting Encryption... [ VOC20230930gteD3fb ]
+2023-10-25 22:04:22 : Encryption complete: [ LytORHh3V3Z4V1RUR0dzTUxmWUlhSlI5b3Nna1Q2YXE4Qzl5M1NrWGJuND0 ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260662,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:04:27 : Last activity time: [ 1698260667 ]
+2023-10-25 22:04:27 : Trying Database connection...
+2023-10-25 22:04:27 : Database connection successfull
+2023-10-25 22:04:27 : Starting Encryption... [ ::1 ]
+2023-10-25 22:04:27 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:04:27 : Starting Decryption... [ encrypt($_SESSION['corporate_id']) ]
+2023-10-25 22:04:27 : Decryption complete: [  ]
+2023-10-25 22:04:27 : Trying Database connection...
+2023-10-25 22:04:27 : Database connection successfull
+2023-10-25 22:04:27 : DB connection closed
+2023-10-25 22:04:27 : Trying Database connection...
+2023-10-25 22:04:27 : Database connection successfull
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260667,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:04:30 : Last activity time: [ 1698260670 ]
+2023-10-25 22:04:30 : Trying Database connection...
+2023-10-25 22:04:30 : Database connection successfull
+2023-10-25 22:04:30 : Trying Database connection...
+2023-10-25 22:04:30 : Database connection successfull
+2023-10-25 22:04:30 : Starting Encryption... [ ::1 ]
+2023-10-25 22:04:30 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:04:30 : Starting Encryption... [ VOC20230930gteD3fb ]
+2023-10-25 22:04:30 : Encryption complete: [ LytORHh3V3Z4V1RUR0dzTUxmWUlhSlI5b3Nna1Q2YXE4Qzl5M1NrWGJuND0 ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260670,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:06:12 : Last activity time: [ 1698260772 ]
+2023-10-25 22:06:12 : Trying Database connection...
+2023-10-25 22:06:12 : Database connection successfull
+2023-10-25 22:06:12 : Trying Database connection...
+2023-10-25 22:06:12 : Database connection successfull
+2023-10-25 22:06:12 : Starting Encryption... [ ::1 ]
+2023-10-25 22:06:12 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:06:12 : Starting Encryption... [ VOC20230930gteD3fb ]
+2023-10-25 22:06:12 : Encryption complete: [ LytORHh3V3Z4V1RUR0dzTUxmWUlhSlI5b3Nna1Q2YXE4Qzl5M1NrWGJuND0 ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260772,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:07:29 : Last activity time: [ 1698260849 ]
+2023-10-25 22:07:29 : Trying Database connection...
+2023-10-25 22:07:29 : Database connection successfull
+2023-10-25 22:07:29 : Trying Database connection...
+2023-10-25 22:07:29 : Database connection successfull
+2023-10-25 22:07:29 : Starting Encryption... [ ::1 ]
+2023-10-25 22:07:29 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:07:29 : Starting Encryption... [ CPR20230930t7UxEh8 ]
+2023-10-25 22:07:29 : Encryption complete: [ aUM2OUpwK0JoblJzZ05vTlFjS3YzRTFqN2J2VE1yMXBJTUJPQlhHSVc4bz0 ]
+2023-10-25 22:07:29 : Starting Encryption... [ ::1 ]
+2023-10-25 22:07:29 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:07:29 : Starting Encryption... [ VOC20230930gteD3fb ]
+2023-10-25 22:07:29 : Encryption complete: [ LytORHh3V3Z4V1RUR0dzTUxmWUlhSlI5b3Nna1Q2YXE4Qzl5M1NrWGJuND0 ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260849,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:07:37 : Last activity time: [ 1698260857 ]
+2023-10-25 22:07:37 : Trying Database connection...
+2023-10-25 22:07:37 : Database connection successfull
+2023-10-25 22:07:37 : Starting Encryption... [ ::1 ]
+2023-10-25 22:07:37 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:07:37 : Starting Decryption... [ aUM2OUpwK0JoblJzZ05vTlFjS3YzRTFqN2J2VE1yMXBJTUJPQlhHSVc4bz0 ]
+2023-10-25 22:07:37 : Decryption complete: [ CPR20230930t7UxEh8 ]
+2023-10-25 22:07:37 : Trying Database connection...
+2023-10-25 22:07:37 : Database connection successfull
+2023-10-25 22:07:37 : DB connection closed
+2023-10-25 22:07:37 : Trying Database connection...
+2023-10-25 22:07:37 : Database connection successfull
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260857,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:08:28 : Last activity time: [ 1698260908 ]
+2023-10-25 22:08:28 : Trying Database connection...
+2023-10-25 22:08:28 : Database connection successfull
+2023-10-25 22:08:28 : Starting Encryption... [ ::1 ]
+2023-10-25 22:08:28 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:08:28 : Starting Decryption... [ aUM2OUpwK0JoblJzZ05vTlFjS3YzRTFqN2J2VE1yMXBJTUJPQlhHSVc4bz0 ]
+2023-10-25 22:08:28 : Decryption complete: [ CPR20230930t7UxEh8 ]
+2023-10-25 22:08:28 : Trying Database connection...
+2023-10-25 22:08:28 : Database connection successfull
+2023-10-25 22:08:28 : DB connection closed
+2023-10-25 22:08:28 : Trying Database connection...
+2023-10-25 22:08:28 : Database connection successfull
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260908,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:08:36 : Last activity time: [ 1698260916 ]
+2023-10-25 22:08:36 : Trying Database connection...
+2023-10-25 22:08:36 : Database connection successfull
+2023-10-25 22:08:36 : Trying Database connection...
+2023-10-25 22:08:36 : Database connection successfull
+2023-10-25 22:08:36 : Starting Encryption... [ ::1 ]
+2023-10-25 22:08:36 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:08:36 : Starting Encryption... [ CPR20230930t7UxEh8 ]
+2023-10-25 22:08:36 : Encryption complete: [ aUM2OUpwK0JoblJzZ05vTlFjS3YzRTFqN2J2VE1yMXBJTUJPQlhHSVc4bz0 ]
+2023-10-25 22:08:36 : Starting Encryption... [ ::1 ]
+2023-10-25 22:08:36 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:08:36 : Starting Encryption... [ VOC20230930gteD3fb ]
+2023-10-25 22:08:36 : Encryption complete: [ LytORHh3V3Z4V1RUR0dzTUxmWUlhSlI5b3Nna1Q2YXE4Qzl5M1NrWGJuND0 ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698260916,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:13:59 : Last activity time: [ 1698261239 ]
+2023-10-25 22:13:59 : Trying Database connection...
+2023-10-25 22:13:59 : Database connection successfull
+2023-10-25 22:13:59 : Starting Encryption... [ ::1 ]
+2023-10-25 22:13:59 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:13:59 : Starting Decryption... [ aUM2OUpwK0JoblJzZ05vTlFjS3YzRTFqN2J2VE1yMXBJTUJPQlhHSVc4bz0 ]
+2023-10-25 22:13:59 : Decryption complete: [ CPR20230930t7UxEh8 ]
+2023-10-25 22:13:59 : Trying Database connection...
+2023-10-25 22:13:59 : Database connection successfull
+2023-10-25 22:13:59 : DB connection closed
+2023-10-25 22:13:59 : Trying Database connection...
+2023-10-25 22:13:59 : Database connection successfull
+2023-10-25 22:13:59 : Trying Database connection...
+2023-10-25 22:13:59 : Database connection successfull
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698261239,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:14:06 : Last activity time: [ 1698261246 ]
+2023-10-25 22:14:06 : Trying Database connection...
+2023-10-25 22:14:06 : Database connection successfull
+2023-10-25 22:14:06 : Starting Encryption... [ ::1 ]
+2023-10-25 22:14:06 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:14:06 : Starting Decryption... [ aUM2OUpwK0JoblJzZ05vTlFjS3YzRTFqN2J2VE1yMXBJTUJPQlhHSVc4bz0 ]
+2023-10-25 22:14:06 : Decryption complete: [ CPR20230930t7UxEh8 ]
+2023-10-25 22:14:06 : Trying Database connection...
+2023-10-25 22:14:06 : Database connection successfull
+2023-10-25 22:14:06 : DB connection closed
+2023-10-25 22:14:06 : Trying Database connection...
+2023-10-25 22:14:06 : Database connection successfull
+2023-10-25 22:14:06 : Trying Database connection...
+2023-10-25 22:14:06 : Database connection successfull
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698261246,"login":true,"user_email":"fionawekulo@gmail.com","user_name":"test","user_id":"USR20231025FnHDtsm","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8","page":"view_used_vouchers"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 22:14:20 : Last activity time: [ 1698261260 ]
+2023-10-25 22:14:20 : Trying Database connection...
+2023-10-25 22:14:20 : Database connection successfull
+2023-10-25 22:14:20 : Trying Database connection...
+2023-10-25 22:14:20 : Database connection successfull
+2023-10-25 22:14:20 : Starting Encryption... [ ::1 ]
+2023-10-25 22:14:20 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:14:20 : Starting Encryption... [ CPR20230930t7UxEh8 ]
+2023-10-25 22:14:20 : Encryption complete: [ aUM2OUpwK0JoblJzZ05vTlFjS3YzRTFqN2J2VE1yMXBJTUJPQlhHSVc4bz0 ]
+2023-10-25 22:14:20 : Starting Encryption... [ ::1 ]
+2023-10-25 22:14:20 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 22:14:20 : Starting Encryption... [ VOC20230930gteD3fb ]
+2023-10-25 22:14:20 : Encryption complete: [ LytORHh3V3Z4V1RUR0dzTUxmWUlhSlI5b3Nna1Q2YXE4Qzl5M1NrWGJuND0 ]
