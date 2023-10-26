@@ -98,6 +98,15 @@ function get_login()
 
     session_assignment($session_login);
     writing_system_logs("Login successful session created: [ " . json_encode($_SESSION) . ' ]');
+    echo '<script>
+        Swal.fire({
+          title: "Success!",
+          text: "Login successful! Please provide all details for better therapist matching.",
+          icon: "success",
+          confirmButtonText: "Okay"
+        });
+      </script>';
+
     redirect_header($redirect_url);
 }
 

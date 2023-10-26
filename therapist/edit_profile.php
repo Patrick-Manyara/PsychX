@@ -107,6 +107,13 @@ $all_cats = get_all('category');
                                 textarea_input('bio', 'therapist_bio', $profile, false);
                                 ?>
                             </div>
+                            <div class="mb-3 col-md-12">
+                                    <label for="therapist_video" class="form-label">Upload Video (30 sec - 1 min)</label>
+                                    <input type="file" class="form-control" id="therapist_video" name="therapist_video" accept="video/*">
+                                    <small id="videoHelp" class="form-text text-muted">Please upload a video of 30 seconds to 1 minute.</small>
+                                </div>
+                                
+
 
 
                         </div>

@@ -89,7 +89,7 @@
 
             <div id="six">
                 <div class="CompInner2 fadeInLeft">
-                    <p class="BlockTitle">Would you like to book a consultation with out inhouse therapist?</p>
+                    <p class="BlockTitle">Would you like to book a consultation with our inhouse therapist @700/- only?</p>
                     <div class="Start2" id="yes">
                         <p class="MainText2">yes</p>
                     </div>

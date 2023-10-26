@@ -256,7 +256,10 @@ function post_therapist()
 
 
     if (!empty($_FILES['therapist_image']['name']))    $arr['therapist_image']   = upload('therapist_image');
-    $_POST['category_id'] = implode("|", $_POST['category_id']);
+    //$_POST['category_id'] = implode("|", $_POST['category_id']);
+
+    if (!empty($_FILES['therapist_video']['name']))    $arr['therapist_video']   = upload('therapist_video');
+    //$_POST['category_id'] = implode("|", $_POST['category_id']);
 
 
     for_loop();

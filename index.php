@@ -5,6 +5,49 @@ $therapists = get_all_therapists('activated', 3);
 $categories = get_all('category');
 $locations  = get_locations();
 $row = array();
+
+$vouchers = select_rows("SELECT * FROM user WHERE user_id = '$_SESSION[user_id]' ");
+$missingDetails = false;
+foreach ($vouchers as $voucher) {
+    if (empty($voucher['user_image']) || empty($voucher['user_passport']) || empty($voucher['user_age']) || empty($voucher['user_address']) || empty($voucher['user_name'])) {
+        $missingDetails = true;
+        break;
+    }
+}
+?>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel">Missing Details</h4>
+      </div>
+      <div class="modal-body">
+        Kindly give all your details in order to be better matched with a therapist.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="okButton">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    <?php if ($missingDetails) { ?>
+        $('#myModal').modal('show');
+    <?php } ?>
+
+    $('#okButton').click(function() {
+        window.location.href = "https://localhost/psychx/client/edit_profile";
+    });
+});
+</script>
+
+
+
 ?>
 <!-- Start Banner 
     ============================================= -->

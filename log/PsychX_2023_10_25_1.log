@@ -4271,3 +4271,172 @@
 2023-10-25 23:43:03 : Encryption complete: [ aEE3UVRYY1FoM3RudDJ0b0JvaUZrdz09 ]
 2023-10-25 23:43:03 : Trying Database connection...
 2023-10-25 23:43:03 : Database connection successfull
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698266583,"admin_login":true,"admin_email":"dashboard@psychx.io","admin_name":"PsychX","admin_id":"ADM20220830AS7yer1","admin_privileges":"super","page":"view used vouchers","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 23:47:17 : Last activity time: [ 1698266837 ]
+2023-10-25 23:47:17 : Logout attempt...
+2023-10-25 23:47:17 : User attempting to logout: [ {"session_ip":"::1","LAST_ACTIVITY":1698266837,"admin_login":true,"admin_email":"dashboard@psychx.io","admin_name":"PsychX","admin_id":"ADM20220830AS7yer1","admin_privileges":"super","page":"view used vouchers","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8"} ]
+2023-10-25 23:47:17 : CSRF time expired for [ {"session_ip":"::1","LAST_ACTIVITY":1698266837,"admin_login":true,"admin_email":"dashboard@psychx.io","admin_name":"PsychX","admin_id":"ADM20220830AS7yer1","admin_privileges":"super","page":"view used vouchers","corporate_login":true,"corporate_email":"patjunhopat@gmail.com","corporate_name":"Muang Thai","corporate_id":"CPR20230930t7UxEh8"} ] warning: [  ]
+2023-10-25 23:47:17 : Logout attempt accepted.
+2023-10-25 23:47:17 : Logout successful.
+2023-10-25 23:47:17 : redirect header url [ https://localhost/psychx?logged_out ]
+2023-10-25 23:47:17 : Header already sent. redirect header url [ https://localhost/psychx?logged_out ]
+ : Session started for: [ {"session_ip":"::1"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 23:47:17 : Last activity time: [ 1698266837 ]
+2023-10-25 23:47:17 : Trying Database connection...
+2023-10-25 23:47:17 : Database connection successfull
+2023-10-25 23:47:17 : Trying Database connection...
+2023-10-25 23:47:17 : Database connection successfull
+2023-10-25 23:47:17 : Trying Database connection...
+2023-10-25 23:47:17 : Database connection successfull
+2023-10-25 23:47:17 : Trying Database connection...
+2023-10-25 23:47:17 : Database connection successfull
+2023-10-25 23:47:17 : Starting Encryption... [ ::1 ]
+2023-10-25 23:47:17 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 23:47:17 : Starting Encryption... [ THP20230702lvnUipA ]
+2023-10-25 23:47:17 : Encryption complete: [ YTBGUmVVcS8yYUsya0p2UldKVm0zWkZlYlJnWnNYKzRuMEd5U3VXanhCST0 ]
+2023-10-25 23:47:17 : Trying Database connection...
+2023-10-25 23:47:17 : Database connection successfull
+2023-10-25 23:47:17 : Starting Encryption... [ ::1 ]
+2023-10-25 23:47:17 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 23:47:17 : Starting Encryption... [ BNsKmCFWrQz ]
+2023-10-25 23:47:17 : Encryption complete: [ L3VJRUZqeUVSK0hDZEJEbUVtRnplQT09 ]
+2023-10-25 23:47:17 : Trying Database connection...
+2023-10-25 23:47:17 : Database connection successfull
+2023-10-25 23:47:17 : Starting Encryption... [ ::1 ]
+2023-10-25 23:47:17 : Encryption complete: [ QVN0aHRDcVVoSTZRZHJ4WmxOMXcyZz09 ]
+2023-10-25 23:47:17 : Starting Encryption... [ OHrSynPaCM7 ]
+2023-10-25 23:47:17 : Encryption complete: [ cis0a0xwYzZLTDVHZVFlQ3RscTRBUT09 ]
+2023-10-25 23:47:17 : Trying Database connection...
+2023-10-25 23:47:17 : Database connection successfull
+2023-10-25 23:47:17 : Trying Database connection...
+2023-10-25 23:47:17 : Database connection successfull
+2023-10-25 23:47:17 : Trying Database connection...
+2023-10-25 23:47:17 : Database connection successfull
+2023-10-25 23:47:17 : Trying Database connection...
+2023-10-25 23:47:17 : Database connection successfull
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698266837} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 23:47:34 : Last activity time: [ 1698266854 ]
+2023-10-25 23:47:34 : Setting Session : warning : [ {"login":300} ]
+2023-10-25 23:47:34 : redirect header url [ login ]
+2023-10-25 23:47:34 : Header already sent. redirect header url [ login ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698266854,"page":"dashboard","warning":{"login":300}} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 23:47:35 : Last activity time: [ 1698266855 ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698266855,"page":"dashboard","warning":{"login":300}} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 23:51:06 : Last activity time: [ 1698267066 ]
+2023-10-25 23:51:06 : Trying Database connection...
+2023-10-25 23:51:06 : Database connection successfull
+2023-10-25 23:51:06 : DB connection closed
+2023-10-25 23:51:06 : Trying Database connection...
+2023-10-25 23:51:06 : Database connection successfull
+2023-10-25 23:51:06 : DB connection closed
+2023-10-25 23:51:06 : CSRF time expired for [ {"session_ip":"::1","LAST_ACTIVITY":1698267066,"page":"dashboard","warning":{"login":300}} ] warning: [  ]
+2023-10-25 23:51:06 : Trying Database connection...
+2023-10-25 23:51:06 : Database connection successfull
+2023-10-25 23:51:06 : Trying Database connection...
+2023-10-25 23:51:06 : Database connection successfull
+2023-10-25 23:51:06 : Trying Database connection...
+2023-10-25 23:51:06 : Database connection successfull
+2023-10-25 23:51:06 : Logging user of email: [ fionawekulo@gmail.com ] in, session: [ {"session_ip":"::1","LAST_ACTIVITY":1698267066,"page":"dashboard","warning":{"login":300}} ]
+2023-10-25 23:51:06 : Trying Database connection...
+2023-10-25 23:51:06 : Database connection successfull
+2023-10-25 23:51:06 : Verifying password...
+2023-10-25 23:51:06 : Password_Login failed with reason: [  ] for session: [ {"session_ip":"::1","LAST_ACTIVITY":1698267066,"page":"dashboard","warning":{"login":300}} ]
+2023-10-25 23:51:06 : Setting Session : error : [ {"login":135} ]
+2023-10-25 23:51:06 : redirect header url [ https://localhost/psychx/therapist/ ]
+2023-10-25 23:51:06 : Header already sent. redirect header url [ https://localhost/psychx/therapist/ ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698267066,"page":"dashboard","warning":{"login":300},"error":{"login":135}} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 23:51:07 : Last activity time: [ 1698267067 ]
+2023-10-25 23:51:07 : Setting Session : warning : [ {"login":300} ]
+2023-10-25 23:51:07 : redirect header url [ login ]
+2023-10-25 23:51:07 : Header already sent. redirect header url [ login ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698267067,"page":"dashboard","warning":{"login":300},"error":{"login":135}} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 23:51:07 : Last activity time: [ 1698267067 ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698267067,"page":"dashboard","warning":{"login":300},"error":{"login":135}} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 23:51:18 : Last activity time: [ 1698267078 ]
+2023-10-25 23:51:18 : Trying Database connection...
+2023-10-25 23:51:18 : Database connection successfull
+2023-10-25 23:51:18 : DB connection closed
+2023-10-25 23:51:18 : Trying Database connection...
+2023-10-25 23:51:18 : Database connection successfull
+2023-10-25 23:51:18 : DB connection closed
+2023-10-25 23:51:18 : CSRF time expired for [ {"session_ip":"::1","LAST_ACTIVITY":1698267078,"page":"dashboard","warning":{"login":300},"error":{"login":135}} ] warning: [  ]
+2023-10-25 23:51:18 : Trying Database connection...
+2023-10-25 23:51:18 : Database connection successfull
+2023-10-25 23:51:18 : Trying Database connection...
+2023-10-25 23:51:18 : Database connection successfull
+2023-10-25 23:51:18 : Trying Database connection...
+2023-10-25 23:51:18 : Database connection successfull
+2023-10-25 23:51:18 : Logging user of email: [ fionawekulo@gmail.com ] in, session: [ {"session_ip":"::1","LAST_ACTIVITY":1698267078,"page":"dashboard","warning":{"login":300},"error":{"login":135}} ]
+2023-10-25 23:51:18 : Trying Database connection...
+2023-10-25 23:51:18 : Database connection successfull
+2023-10-25 23:51:18 : Verifying password...
+2023-10-25 23:51:18 : Setting Session : therapist_login : [ true ]
+2023-10-25 23:51:18 : Setting Session : therapist_email : [ "fionawekulo@gmail.com" ]
+2023-10-25 23:51:18 : Setting Session : therapist_name : [ "test" ]
+2023-10-25 23:51:18 : Setting Session : therapist_id : [ "2p7HXxnlVSu" ]
+2023-10-25 23:51:18 : Setting Session : success : [ {"therapist_login":204} ]
+2023-10-25 23:51:18 : Login successful session created: [ {"session_ip":"::1","LAST_ACTIVITY":1698267078,"page":"dashboard","warning":{"login":300},"error":{"login":135},"therapist_login":true,"therapist_email":"fionawekulo@gmail.com","therapist_name":"test","therapist_id":"2p7HXxnlVSu","success":{"therapist_login":204}} ]
+2023-10-25 23:51:18 : redirect header url [ https://localhost/psychx/therapist/ ]
+2023-10-25 23:51:18 : Header already sent. redirect header url [ https://localhost/psychx/therapist/ ]
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698267078,"page":"dashboard","warning":{"login":300},"error":{"login":135},"therapist_login":true,"therapist_email":"fionawekulo@gmail.com","therapist_name":"test","therapist_id":"2p7HXxnlVSu","success":{"therapist_login":204}} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 23:51:19 : Last activity time: [ 1698267079 ]
+2023-10-25 23:51:19 : Trying Database connection...
+2023-10-25 23:51:19 : Database connection successfull
+2023-10-25 23:51:19 : Trying Database connection...
+2023-10-25 23:51:19 : Database connection successfull
+2023-10-25 23:51:19 : Trying Database connection...
+2023-10-25 23:51:19 : Database connection successfull
+2023-10-25 23:51:19 : Trying Database connection...
+2023-10-25 23:51:19 : Database connection successfull
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698267079,"page":"dashboard","therapist_login":true,"therapist_email":"fionawekulo@gmail.com","therapist_name":"test","therapist_id":"2p7HXxnlVSu"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 23:51:44 : Last activity time: [ 1698267104 ]
+2023-10-25 23:51:44 : Trying Database connection...
+2023-10-25 23:51:44 : Database connection successfull
+2023-10-25 23:51:44 : Trying Database connection...
+2023-10-25 23:51:44 : Database connection successfull
+2023-10-25 23:51:44 : Trying Database connection...
+2023-10-25 23:51:44 : Database connection successfull
+2023-10-25 23:51:44 : Trying Database connection...
+2023-10-25 23:51:44 : Database connection successfull
+2023-10-25 23:51:44 : Setting Session : edit : [ "2p7HXxnlVSu" ]
+2023-10-25 23:51:44 : Trying Database connection...
+2023-10-25 23:51:44 : Database connection successfull
+2023-10-25 23:51:44 : Trying Database connection...
+2023-10-25 23:51:44 : Database connection successfull
+ : Session started for: [ {"session_ip":"::1","LAST_ACTIVITY":1698267104,"page":"edit_profile","therapist_login":true,"therapist_email":"fionawekulo@gmail.com","therapist_name":"test","therapist_id":"2p7HXxnlVSu","edit":"2p7HXxnlVSu"} ]
+ : User info: [ {"get_ip":"::1","get_os":"Windows 10","get_device":"Computer","get_browser":"Chrome"} ]
+ : Timezone set to: [  Africa/Nairobi ]
+2023-10-25 23:57:56 : Last activity time: [ 1698267476 ]
+2023-10-25 23:57:56 : Trying Database connection...
+2023-10-25 23:57:56 : Database connection successfull
+2023-10-25 23:57:56 : Trying Database connection...
+2023-10-25 23:57:56 : Database connection successfull
+2023-10-25 23:57:56 : Trying Database connection...
+2023-10-25 23:57:56 : Database connection successfull
+2023-10-25 23:57:56 : Trying Database connection...
+2023-10-25 23:57:56 : Database connection successfull
+2023-10-25 23:57:56 : Setting Session : edit : [ "2p7HXxnlVSu" ]
+2023-10-25 23:57:56 : Trying Database connection...
+2023-10-25 23:57:56 : Database connection successfull
+2023-10-25 23:57:56 : Trying Database connection...
+2023-10-25 23:57:56 : Database connection successfull
